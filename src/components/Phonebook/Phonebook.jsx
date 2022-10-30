@@ -10,7 +10,7 @@ import { getContacts, getFilter } from "redux/selectors";
 import { addContact, deleteContact, setFilter } from '../../redux/actions';
 
 import { Container, Title, ContactsTitle } from "./Phonebook.styled";
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
 
 
 
